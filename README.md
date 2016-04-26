@@ -5,6 +5,10 @@ For identification of the organism,
 1. urine_search.sh Nanoporefastareadsfile
 2. in the same directory as urine_search.sh run Urinereport.py
 
+The following scripts need to be in the path:
+blast_separate_taxa.pl
+blast_taxonomy_report.pl
+
 To identify genes that encode antibiotic resistance genes,
 
 1. sh consAntifile.sh Nanoporefastareadsfile resistancegenedatabasefile lastindexfile
