@@ -26,7 +26,10 @@ tidyfinalout.py
 
 A suitable antibiotic resistance database to search would be the Comprehensive Antibiotic Resistance Database
 (https://card.mcmaster.ca/about)
-For the use of the nanopore searches only, a dereplicated subset of these genes is provided in this repository.
+For the use of the nanopore searches only, a dereplicated subset of these genes is provided in this repository, 
+AR-genes_subset_dereplicated.fa
+
+If there are non-unique filenames in the first id field of the extracted nanopore fasta files, script rename_fasta_fast5.py will rename the first field to create unique names.
 
 Disclaimer:
 Materials on this site are provided "as is" without warranties or conditions of any kind expressed or implied.
